@@ -17,7 +17,7 @@
        
        <h1>follo0w3r</h1>
        
-       <h1>following</h1>
+       <h1>followingd</h1>
         </div>
      
         <div class="row">
