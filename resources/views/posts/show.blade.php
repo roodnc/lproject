@@ -6,6 +6,10 @@
         <div class="col-8">
             <img src="/storage/{{ $post->image }}" class="w-100">
             <p> {{$post->title}}</p>
+
+            <h1> {{$post->user->username}} </h1>
+        
+
         </div>
        
 </div>

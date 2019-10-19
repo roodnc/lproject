@@ -5,7 +5,8 @@
       <div class="row">
 
         <div class="col-6">
-       <h1>funktion für profilbild</h1>
+       <h1>funktion für profilbild ->>>></h1>
+      <img src="/storage/{{$user->profile->image}}" class="rounded-circle w-200">
        
        <h1> hier username funktion >>>> {{$user->username}}</h1>
        <h1>.</h1>
