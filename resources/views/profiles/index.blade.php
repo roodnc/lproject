@@ -13,11 +13,11 @@
         </div>
 
         <div class="col6">
-           
+        <followw user-Id="{{$user->id}}"></followw>
        <h1>post numm hier >>>> {{$user->posts->count()}}</h1>
        
        <h1>follo0w3r</h1>
-       
+
        <h1>followingd</h1>
         </div>
      
@@ -36,7 +36,12 @@
            @foreach($user->posts as $post)
       <div class= "col-4">
          <h1> hier profile posts >>>>>>></h1>
+         
+      <a href ="/p/ {{$post->id}}">
          <img src="/storage/{{ $post->image}}" class="w-50">
+        
+        </a>
+        
         </div>
         @endforeach
 </div>

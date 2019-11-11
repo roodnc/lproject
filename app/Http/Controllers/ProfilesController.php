@@ -11,6 +11,9 @@ class ProfilesController extends Controller
    
 public function index($user)
 {
+
+
+
   $user = \App\User::findOrFail($user);
     return view('profiles\index', [
     'user' => $user,
@@ -27,8 +30,9 @@ return view('profiles.edit', compact('user'));
 
 
 public function update (\App\User $user)
-
 {
+
+
 $data = request ()-> validate ( 
   [
     'title' => 'required', 

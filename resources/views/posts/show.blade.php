@@ -8,7 +8,7 @@
             <p> {{$post->title}}</p>
 
             <h1> {{$post->user->username}} </h1>
-        
+         <a href="#"> Follow </a>
 
         </div>
        

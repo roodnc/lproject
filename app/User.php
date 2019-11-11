@@ -60,4 +60,9 @@ protected static function boot()
     {
         return $this->hasMany(Post::class)->orderBy ('created_at', 'DESC');
     }
+
+    public function following()
+    {
+        return $this->belongsToMany(Profile::class);
+    }
 }
