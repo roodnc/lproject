@@ -1,8 +1,6 @@
 <script>
 import Slider from '@jeremyhamm/vue-slider'
-
 export default {
-
          props: ['userId'],
   components: {
     'slider': Slider

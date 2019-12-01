@@ -24,6 +24,7 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "@jeremyhamm/vue-slider": "^0.1.16"
+        "@jeremyhamm/vue-slider": "^0.1.16",
+        "vue-quick-menu": "^1.0.7"
     }
 }

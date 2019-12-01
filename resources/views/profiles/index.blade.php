@@ -13,12 +13,12 @@
         </div>
 
         <div class="col6">
-        <followw user-Id="{{$user->id}}"></followw>
+        <followw user-id="{{$user->id}}" follows="{{ $follows }}"></followw>
        <h1>post numm hier >>>> {{$user->posts->count()}}</h1>
        
-       <h1>follo0w3r</h1>
-
-       <h1>followingd</h1>
+       <div > {{$user->profile->followers->count()}} followers </div>
+                  
+       <div > {{$user->following->count()}} following </div>
         </div>
      
         <div class="row">

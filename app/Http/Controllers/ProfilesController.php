@@ -9,15 +9,13 @@ use App\User;
 class ProfilesController extends Controller
 {
    
-public function index($user)
+public function index(\App\User $user)
 {
+$follows = (auth() -> user()) ? auth() -> user() ->following->contains($user->id) : false;
 
 
+return view('profiles.index', compact('user', 'follows'));
 
-  $user = \App\User::findOrFail($user);
-    return view('profiles\index', [
-    'user' => $user,
-]);
 
 }
 
