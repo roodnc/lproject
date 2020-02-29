@@ -13,8 +13,6 @@ export default {
 
 
 
-
-
  <slider :width="300" margin-right= "300px" format="push" direction="left" :opacity="0.15" 
- :links="[{'id': 1, 'text': 'Upload a Post', 'url': 'http://127.0.0.1:8000/p/create'}, {'id': 2, 'text': '/profile/this.userId/edit', 'url': 'http://127.0.0.1:8000/profile/this.userId/edit'}]"></slider>
+ :links="[{'id': 1, 'text': 'BIANCO ist eine SocialMedia Plattform im Aufbau '}, {'id': 2, 'text': ''} , {'id': 3, 'text': ''}, {'id': 2, 'text': ''} , {'id': 3, 'text': ''}, {'id': 2, 'text': ''} , {'id': 3, 'text': ''}, {'id': 2, 'text': ''} , {'id': 3, 'text': ''}, {'id': 2, 'text': ''} , {'id': 3, 'text': ''}, {'id': 2, 'text': ''} , {'id': 3, 'text': ''}, {'id': 2, 'text': ''} , {'id': 3, 'text': ''}, {'id': 2, 'text': ''} , {'id': 3, 'text': ''} ,{'id': 2, 'text': ''} , {'id': 3, 'text': ''}, {'id': 2, 'text': ''} , {'id': 3, 'text': ''}, {'id': 2, 'text': ''} , {'id': 3, 'text': ''}, {'id': 2, 'text': ''} , {'id': 3, 'text': ''}, {'id': 2, 'text': ''} , {'id': 3, 'text': ''}, {'id': 2, 'text': ''} , {'id': 3, 'text': ''}, {'id': 2, 'text': ''} , {'id': 3, 'text': ''}, {'id': 2, 'text': ''} , {'id': 3, 'text': ''} ,{'id': 2, 'text': ''} , {'id': 3, 'text': ''},{'id': 2, 'text': ''} , {'id': 3, 'text': ''},{'id': 2, 'text': ''} , {'id': 3, 'text': ''}, {'id': 8, 'text': 'Kontakt Via E-Mail auf Bianco@haw.de'} ]"></slider>
 </template>

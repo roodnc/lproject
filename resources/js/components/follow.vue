@@ -31,7 +31,7 @@
         },
         computed: {
             buttonText() {
-                return (this.status) ? 'dont unfollow pls ' : 'Follow for follow OWO heh';
+                return (this.status) ? 'Unsubscribe ' : 'Subscribe';
             }
         }
     }

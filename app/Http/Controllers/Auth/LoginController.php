@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
-
+Use Auth;
 class LoginController extends Controller
 {
     /*
@@ -25,8 +25,14 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
-
+    protected function redirectTo()
+    {
+       /*
+         You can add any other logic needed to be satisfied here or 
+         flash some sessional data here,etc.       
+       */
+       return 'profile/'.auth()->user()->id;
+    }
     /**
      * Create a new controller instance.
      *
