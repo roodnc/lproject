@@ -31,7 +31,7 @@
       </div>    
    </div>
  
-  
+   <hr style="color: '#0f4a4d';">
        
       <div class="container">
       <div class="row pt-5">
@@ -45,6 +45,6 @@
         @endforeach
    </div></div>
 </div>
-
+<hr style="color: '#0f4a4d';">
 
 @endsection

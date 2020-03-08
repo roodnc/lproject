@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>NamePlaceholder</title>
+    <title>BIANCO HAW</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -55,7 +55,7 @@
 
                         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm fixed-top"> 
                        <slideru></slideru> 
-                        <a class="navbar-brand" >BIANCO</a>
+                        <a class="navbar-brand"><--Click for more information                 </a>
                         <li class="nav-item">
                         <a href="/p/create">Add New Post</a>
                         </li>
